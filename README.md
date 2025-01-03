@@ -1,50 +1,50 @@
 # ML Education
 
-Этот проект создан на базе [Next.js](https://nextjs.org) с использованием [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This project is built on [Next.js](https://nextjs.org) using [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Обзор проекта
+## Project Overview
 
-`ML Education` — это образовательная блог, направленная на ознакомление старшеклассников и студентов других IT-направлений с основами Искусственного Интеллекта (AI) и Машинного Обучения (ML). Блог предоставляет:
+`ML Education` is an educational blog designed to introduce high school students and students from other IT disciplines to the fundamentals of Artificial Intelligence (AI) and Machine Learning (ML). The blog provides:
 
-- **Лекции**: Простые объяснения сложных концепций AI.
-- **Тесты**: Для закрепления знаний и повышения интереса к обучению.
-- **Примеры из реального мира**: Как AI и ML используются в таких сферах, как здравоохранение, финансы и рекомендательные системы.
+- **Lectures**: Simplified explanations of complex AI concepts.
+- **Quizzes**: To reinforce knowledge and increase engagement.
+- **Real-world examples**: How AI and ML are used in industries like healthcare, finance, and recommendation systems.
 
-Блог разработан для того, чтобы пробудить интерес к AI и вдохновить студентов на дальнейшее обучение и поступление в магистратуру AI Talent Hub.
+The blog is designed to spark interest in AI and inspire students to continue learning and pursue a master's degree at AI Talent Hub.
 
-## Возможности
+## Features
 
-1. **Лекции по темам**
-   - Примеры тем: "Что такое машинное обучение?", "Основные типы задач в ML", "Применение ML в реальном мире".
-   - Контент включает текстовые объяснения и визуальные материалы.
+1. **Thematic Lectures**
+   - Example topics: "What is Machine Learning?", "Key ML Task Types", "Real-world Applications of ML".
+   - Content includes textual explanations and visual materials.
 
-2. **Тесты**
-   - Тесты встроены в лекции для проверки понимания.
-   - Пользователи получают мгновенную обратную связь по своим ответам.
+2. **Quizzes**
+   - Quizzes are embedded in lectures to test understanding.
+   - Users receive instant feedback on their answers.
 
-3. **Интуитивный дизайн**
-   - Удобный интерфейс для всех уровней подготовки.
+3. **Intuitive Design**
+   - User-friendly interface suitable for all levels of knowledge.
 
-## Скриншоты
+## Screenshots
 
-### Главная страница
-На главной странице представлен обзор доступных лекций.
+### Home Page
+The homepage provides an overview of available lectures.
 
-![Главная страница](./docs/1.png)
+![Home Page](./docs/1.png)
 
-### Детали лекции
-Подробный вид лекции, включающий текстовые объяснения, примеры и структурированное содержание.
+### Lecture Details
+Detailed lecture view with textual explanations, examples, and structured content.
 
-![Детали лекции](./docs/2.png)
+![Lecture Details](./docs/2.png)
 
-### Интерактивный тест
-Пример теста с мгновенной обратной связью на ответы.
+### Interactive Quiz
+Example quiz with instant feedback on answers.
 
-![Пример теста](./docs/3.png)
+![Quiz Example](./docs/3.png)
 
-## Начало работы
+## Getting Started
 
-Для запуска приложения выполните следующие команды:
+To start the application, run the following commands:
 
 ```bash
 cd blog
@@ -53,31 +53,32 @@ npm run build:content
 
 ```bash
 npm run dev
-# или
+# or
 yarn dev
-# или
+# or
 pnpm dev
-# или
+# or
 bun dev
 ```
 
-Откройте [http://localhost:3000](http://localhost:3000) в браузере, чтобы увидеть результат.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the result.
 
-## Как это помогает AI Talent Hub
+## How This Supports AI Talent Hub
 
-Цели проекта:
+Project Goals:
 
-1. Увеличение осведомлённости о магистратуре AI Talent Hub среди студентов.
-2. Создание увлекательного и доступного контента для привлечения широкой аудитории.
-3. Мотивация студентов к изучению AI как карьерного направления.
+1. Increase awareness of the AI Talent Hub master's program among students.
+2. Create engaging and accessible content to attract a broad audience.
+3. Motivate students to explore AI as a career path.
 
-## Используемые технологии
+## Technologies Used
 
-- **Фреймворк**: Next.js (React.js)
-- **Язык**: TypeScript
-- **Стилизация**: Tailwind CSS
-- **Управление контентом**: Markdown для лекций (mdx)
+- **Framework**: Next.js (React.js)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Content Management**: Markdown for lectures (MDX)
 
-## Вклад
+## Contribution
 
-Разработано Дмитрием Жуковым, магистрантом AI Talent Hub. Если вы столкнулись с проблемами или у вас есть предложения по улучшению, вы можете внести вклад через GitHub.
+Developed by Dmitriy Zhukov, a master's student at AI Talent Hub. If you encounter any issues or have suggestions for improvement, feel free to contribute via GitHub.
+
